@@ -1,9 +1,7 @@
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
 import base64
 
-load_dotenv()
 api_key = os.getenv("openai_api_key")
 
 client = OpenAI(api_key=api_key)
